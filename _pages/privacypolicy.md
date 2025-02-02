@@ -18,7 +18,7 @@ We collect minimal information necessary to provide you with the best possible e
 - Profile information (name)
 - Task-related data (task descriptions, completion status)
 - Progress and achievement data
-- App preferences and settings
+- App preferences and settings.
 
 ### 1.2 Information collected automatically
 - Usage statistics (app interactions, feature usage)
