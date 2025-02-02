@@ -1,0 +1,124 @@
+#page title
+page_title                                :                                           # Will automatically populate with app name
+
+# App Info
+ios_app_id                                : 6739305974                                # Your couple tasks app ID
+ios_app_country                           : us                                        
+
+appstore_link                             :    
+playstore_link                            :                                           
+presskit_download_link                    :                                           
+
+app_icon                                  : # assets/appicon.png                      
+app_name                                  : TaskFlow                                  
+app_price                                 : Free                                   
+app_description                           : Manage your daily tasks efficiently and productively.
+
+enable_smart_app_banner                   : true                                      
+
+# Navigation Bar
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+# Pages
+include_in_header                         : true                                      # Adds a link to Privacy Policy in the header
+pages:
+  - title: Privacy Policy
+    url: /privacypolicy
+    include_in_header: true
+
+# Information About Yourself
+your_name                                 : Antonio Jesús Cazalla Ureña                                
+your_link                                 : https://twitter.com/cazallau
+your_city                                 : Spain 🇪🇸                                
+email_address                             : cazallauapps@gmail.com
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : cazallau
+github_username                           : cazallau
+youtube_username                          :
+
+# Feature List                            
+features                                  :
+
+  - title                                 : Simple Organization
+    description                           : Organize your tasks intuitively and efficiently
+    fontawesome_icon_name                 : tasks
+    
+  - title                                 : Priority System
+    description                           : Set priorities for your tasks and manage your time better
+    fontawesome_icon_name                 : star
+    
+  - title                                 : Custom Reminders
+    description                           : Set up notifications to stay on top of your tasks
+    fontawesome_icon_name                 : bell
+    
+  - title                                 : Stats & Tracking
+    description                           : Visualize your progress and productivity with detailed statistics
+    fontawesome_icon_name                 : chart-line
+
+# Theme Settings
+topbar_color                              : "#4A90E2"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    
+cover_overlay_color                       : "#4A90E2"
+cover_overlay_transparency                : 0.8
+
+device_color                              : coral                                     
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#4A90E2"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#4A90E2"
+feature_icons_background_color            : "#E8F0FE"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
+
+# Do not modify Jekyll configuration below this line
