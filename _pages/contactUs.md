@@ -1,11 +1,52 @@
 ---
 layout: page
-title: What's New
+title: Contact Us
 include_in_header: true
 ---
 
-# Changelog
-Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the _pages directory. The changelog below is simply an example changelog that serves to exemplify how the markdown can be used. You can be as creative as you want with the markdown.
+# Contact Us
+We'd love to hear from you! Whether you have a question, feedback, or need support, please fill out the form below.
+
+<form action="https://formspree.io/f/mqaedqyo" method="POST">
+  <div style="margin-bottom: 20px;">
+    <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Name:</label>
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">Email:</label>
+    <input type="email" id="email" name="_replyto" required style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <label for="subject" style="display: block; margin-bottom: 5px; font-weight: bold;">Subject:</label>
+    <select id="subject" name="subject" required style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+      <option value="">Select a subject</option>
+      <option value="support">Technical Support</option>
+      <option value="feedback">App Feedback</option>
+      <option value="bug">Report a Bug</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">Message:</label>
+    <textarea id="message" name="message" required style="width: 100%; height: 150px; padding: 8px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+  </div>
+
+  <button type="submit" style="background-color: #4A90E2; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Send Message</button>
+</form>
+
+<br>
+
+### Alternative Contact Methods
+
+If you prefer, you can also reach us through:
+
+- Email: cazallaudeveloper@gmail.com
+- Twitter: [@cazallau](https://twitter.com/cazallau)
+
+We typically respond within 24-48 business hours.
 
 <br>
 
